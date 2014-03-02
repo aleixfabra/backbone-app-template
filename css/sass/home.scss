@@ -1,0 +1,20 @@
+#home-view {
+  background-image: url('#{$images_path}video.jpg');
+  background-position: center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  z-index: -2;
+  bottom: $footer_height;
+  video {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden
+  }
+}

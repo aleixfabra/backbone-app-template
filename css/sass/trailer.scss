@@ -1,0 +1,16 @@
+#trailer-view {
+  .obr-absoluted {
+    position: fixed;
+    z-index: 2;
+    background: $black; 
+    background: rgba(5, 5, 5, 0.7); 
+    .obr-middle {
+      position: relative;
+      .close-big-btn {
+        position: absolute;
+        top: -50px;
+        right: 6px;
+      }
+    }
+  }
+}

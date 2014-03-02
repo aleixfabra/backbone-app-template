@@ -1,0 +1,104 @@
+/*
+ * Variables
+ */
+$brown: #4c3816;
+$orange: #d55510;
+$grey: #9b9582;
+$black: #050505;
+$beige: #f7ebd5;
+$images_path: '../img/';
+$footer_height: 50px;
+
+/*
+ *  Utils
+ */
+.assets {
+  background-image: url('#{$images_path}assets.png');
+}
+
+.facebook-icon {
+  @extend .assets;
+  background-position: -61px -100px;
+  width: 21px;
+  height: 21px;
+  display: block;
+  &:hover {
+    background-position: -61px -130px;
+  }
+}
+
+.twitter-icon {
+  @extend .assets;
+  background-position: -30px -100px;
+  width: 21px;
+  height: 21px;
+  display: block;
+  &:hover {
+    background-position: -30px -130px;
+  }
+}
+
+.arrow-icon {
+  @extend .assets;
+  background-position: 0 -100px;
+  width: 7px;
+  height: 7px;
+}
+
+.close-btn {
+  @extend .assets;
+  background-position: -100px -100px;
+  width: 29px;
+  height: 29px;
+  cursor: pointer;
+  &:hover {
+    background-position: -100px -134px;
+  }
+}
+
+.close-big-btn {
+  @extend .assets;
+  background-position: -250px -100px;
+  width: 39px;
+  height: 39px;
+  cursor: pointer;
+  &:hover {
+    background-position: -250px -150px;
+  }
+}
+
+.left-arrow-btn {
+  @extend .assets;
+  background-position: -150px -100px;
+  width: 39px;
+  height: 39px;
+  cursor: pointer;
+  &:hover {
+    background-position: -150px -150px;
+  }
+}
+
+.right-arrow-btn {
+  @extend .assets;
+  background-position: -200px -100px;
+  width: 39px;
+  height: 39px;
+  cursor: pointer;
+  &:hover {
+    background-position: -200px -150px;
+  }
+}
+
+.grey-background {
+  @extend .assets;
+  background-position: -272px 0;
+  width: 100px;
+  height: 23px;
+}
+
+.star-icon {
+  @extend .assets;
+  background-position: -444px -5px;
+  width: 13px;
+  height: 12px;
+}

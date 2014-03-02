@@ -1,0 +1,91 @@
+/*
+Syntax error: Undefined variable: "$black".
+        on line 5 of css/sass/trailer.scss
+
+1: #trailer-view {
+2:   .obr-absoluted {
+3:     position: fixed;
+4:     z-index: 2;
+5:     background: $black; 
+6:     background: rgba(5, 5, 5, 0.7); 
+7:     .obr-middle {
+8:       position: relative;
+9:       .close-big-btn {
+10:         position: absolute;
+
+Backtrace:
+css/sass/trailer.scss:5
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/script/variable.rb:49:in `_perform'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/script/node.rb:40:in `perform'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:298:in `visit_prop'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:109:in `visit_children'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:320:in `visit_rule'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:109:in `visit_children'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:320:in `visit_rule'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:109:in `visit_children'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:128:in `visit_root'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/root_node.rb:20:in `render'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/engine.rb:315:in `_render'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/engine.rb:262:in `render'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin/compiler.rb:362:in `update_stylesheet'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin/compiler.rb:203:in `update_stylesheets'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin/compiler.rb:201:in `each'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin/compiler.rb:283:in `watch'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:117:in `initialize_adapter'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/polling.rb:56:in `call'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/polling.rb:56:in `poll'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/polling.rb:32:in `start'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/polling.rb:32:in `initialize'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/polling.rb:32:in `new'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/polling.rb:32:in `start'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:44:in `start'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin/compiler.rb:291:in `watch'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin.rb:107:in `send'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin.rb:107:in `method_missing'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/exec.rb:455:in `watch_or_update'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/exec.rb:318:in `process_result'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/exec.rb:41:in `parse'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/exec.rb:21:in `parse!'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/sass:9
+/usr/bin/sass:19:in `load'
+/usr/bin/sass:19
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined variable: \"$black\".\A         on line 5 of css/sass/trailer.scss\A \A 1: #trailer-view {\A 2:   .obr-absoluted {\A 3:     position: fixed;\A 4:     z-index: 2;\A 5:     background: $black; \A 6:     background: rgba(5, 5, 5, 0.7); \A 7:     .obr-middle {\A 8:       position: relative;\A 9:       .close-big-btn {\A 10:         position: absolute;"; }

@@ -1,0 +1,37 @@
+#videos-view {
+  position: relative;
+  ul {
+    text-transform: uppercase;
+    font-size: 0;
+    padding: 0 50px 0 125px;
+    text-align: left;
+    li {
+      display: inline-block;
+      width: 46%;
+      padding-bottom: 20px;
+      margin: 2%;
+      &:hover {
+        .name {
+          color: $orange;
+        }
+      }
+      .name {
+        font-size: 14px;
+        color: #3c3a3;
+        text-align: left;
+        margin: {
+          top: 5px;
+          left: 3px;
+        }
+      }
+      img {
+        cursor: pointer;
+      }
+    }
+  }
+  .videos-icon {
+    position: absolute;
+    top: 210px;
+    left: -100px;
+  }
+}

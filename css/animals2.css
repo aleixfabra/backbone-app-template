@@ -1,0 +1,9 @@
+#animals-2-view {
+  position: relative; }
+  #animals-2-view .text {
+    padding: 0 200px;
+    text-align: left; }
+  #animals-2-view .animals-2-icon {
+    position: absolute;
+    top: 300px;
+    left: -90px; }

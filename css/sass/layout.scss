@@ -1,0 +1,206 @@
+/*
+ * Base rules
+ */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #3c3a35;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: $brown;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  transition: color 0.2s;  
+  &:hover {
+    color: $orange;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    -ms-transition: color 0.2s;
+    transition: color 0.2s; 
+  }
+}
+
+p {
+  padding-bottom: 20px;
+}
+
+span.strong {
+  font-weight: bold;
+}
+
+/*
+ * Layout rules
+ */
+header {
+}
+
+.container {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: {
+    right: 15px;
+    left: 15px;
+  }
+}
+
+#content-view {
+  .obr-absoluted {
+    background: $black;
+  }
+  .obr-modal {
+    position: fixed;
+    overflow: auto;
+    z-index: 1;
+    background: $black; 
+    background: rgba(5, 5, 5, 0.7); 
+    .obr-middle {
+      position: relative;
+      background-image: url('#{$images_path}modal-background.jpg');
+      width: 583px;
+      height: 660px;
+      .modal-title {
+        font-size: 25px;
+        text-transform: uppercase;
+        padding: 45px 0 30px 0;
+        position: relative;
+        &:before {
+          content: '';
+          background-color: $grey;
+          width: 210px;
+          height: 1px;
+          position: absolute;
+          top: 55px;
+          left: 0;
+        }
+        &:after {
+          content: '';
+          background-color: $grey;
+          width: 210px;
+          height: 1px;
+          position: absolute;
+          top: 55px;
+          right: 0;
+        }
+      }
+      .close-btn {
+        position: absolute;
+        top: 6px;
+        right: 10px;
+        z-index: 1
+      }
+    }
+  }
+}
+
+#loader-view {
+  position: fixed;
+  background-color: $black;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background-image: url('#{$images_path}footer-background.jpg');
+  background-position: center;
+  width: 100%;
+  height: $footer_height;
+  color: $brown;
+  -webkit-box-shadow: 0px 0px 10px 0px #303030;
+  box-shadow: 0px 0px 10px 0px #303030;
+  .container {
+    .social-container {
+      position: absolute;
+      top: 18px;
+      right: 15px;
+      ul {
+        font-size: 0;
+        li {
+          display: inline-block;
+          margin: 0 5px;
+          height: 21px;
+          vertical-align: middle;
+          &.credits-btn {
+            font-size: 14px;
+            color: white;
+            cursor: pointer;
+            border: {
+              left: 1px solid $grey;
+              right: 1px solid $grey;
+            }
+            -webkit-transition: color 0.2s;
+            -moz-transition: color 0.2s;
+            -o-transition: color 0.2s;
+            -ms-transition: color 0.2s;
+            transition: color 0.2s; 
+            &:hover {
+              color: #E9E9E9;
+              -webkit-transition: color 0.2s;
+              -moz-transition: color 0.2s;
+              -o-transition: color 0.2s;
+              -ms-transition: color 0.2s;
+              transition: color 0.2s; 
+              .text {
+                &:after {
+                  background-position: 0 -130px;
+                  -webkit-transition: background 0.4s;
+                  -moz-transition: background 0.4s;
+                  -o-transition: background 0.4s;
+                  -ms-transition: background 0.4s;
+                  transition: background 0.4s;
+                }
+              }    
+            }
+            .text {
+              position: relative;
+              padding: 0 26px 0 18px;
+              line-height: 24px;
+              &:after {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 8px;
+                right: 16px;
+                -webkit-transition: background 0.4s;
+                -moz-transition: background 0.4s;
+                -o-transition: background 0.4s;
+                -ms-transition: background 0.4s;
+                transition: background 0.4s;
+                @extend .arrow-icon;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #credits-view {
+    position: absolute;
+    display: none;
+    background-color: #050505;
+    width: 100%;
+    bottom: 100px;
+    text-align: center;
+    color: $beige;
+    font-weight: 100;
+    .container {
+      margin: 45px auto;
+      line-height: 20px;
+      .close-btn {
+        position: absolute;
+        top: -35px;
+        right: 29px;
+      }
+    }
+  }
+}

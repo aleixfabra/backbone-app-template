@@ -1,0 +1,83 @@
+/*
+Syntax error: Undefined variable: "$images_path".
+        on line 2 of css/sass/home.scss
+
+1: #home-view {
+2:   background-image: url('#{$images_path}video.jpg');
+3:   background-position: center; 
+4:   -webkit-background-size: cover;
+5:   -moz-background-size: cover;
+6:   background-size: cover;
+7:   z-index: -2;
+
+Backtrace:
+css/sass/home.scss:2
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/script/variable.rb:49:in `_perform'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/script/node.rb:40:in `perform'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/script/string_interpolation.rb:82:in `_perform'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/script/node.rb:40:in `perform'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/script/funcall.rb:99:in `_perform'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/script/funcall.rb:99:in `map'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/script/funcall.rb:99:in `_perform'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/script/node.rb:40:in `perform'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:298:in `visit_prop'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:109:in `visit_children'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:320:in `visit_rule'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:109:in `visit_children'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:128:in `visit_root'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/root_node.rb:20:in `render'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/engine.rb:315:in `_render'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/engine.rb:262:in `render'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin/compiler.rb:362:in `update_stylesheet'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin/compiler.rb:203:in `update_stylesheets'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin/compiler.rb:201:in `each'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin/compiler.rb:283:in `watch'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:117:in `initialize_adapter'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/polling.rb:56:in `call'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/polling.rb:56:in `poll'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/polling.rb:32:in `start'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/polling.rb:32:in `initialize'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/polling.rb:32:in `new'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/polling.rb:32:in `start'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:44:in `start'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin/compiler.rb:291:in `watch'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin.rb:107:in `send'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin.rb:107:in `method_missing'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/exec.rb:455:in `watch_or_update'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/exec.rb:318:in `process_result'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/exec.rb:41:in `parse'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/exec.rb:21:in `parse!'
+/Users/robotFive/.gem/ruby/1.8/gems/sass-3.2.10/bin/sass:9
+/usr/bin/sass:19:in `load'
+/usr/bin/sass:19
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined variable: \"$images_path\".\A         on line 2 of css/sass/home.scss\A \A 1: #home-view {\A 2:   background-image: url('#{$images_path}video.jpg');\A 3:   background-position: center; \A 4:   -webkit-background-size: cover;\A 5:   -moz-background-size: cover;\A 6:   background-size: cover;\A 7:   z-index: -2;"; }

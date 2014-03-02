@@ -1,0 +1,71 @@
+/*
+ * Variables
+ */
+/*
+ *  Utils
+ */
+.assets, .facebook-icon, .twitter-icon, .arrow-icon, .close-btn, .close-big-btn, .left-arrow-btn, .right-arrow-btn, .grey-background, .star-icon {
+  background-image: url("../img/assets.png"); }
+
+.facebook-icon {
+  background-position: -61px -100px;
+  width: 21px;
+  height: 21px;
+  display: block; }
+  .facebook-icon:hover {
+    background-position: -61px -130px; }
+
+.twitter-icon {
+  background-position: -30px -100px;
+  width: 21px;
+  height: 21px;
+  display: block; }
+  .twitter-icon:hover {
+    background-position: -30px -130px; }
+
+.arrow-icon {
+  background-position: 0 -100px;
+  width: 7px;
+  height: 7px; }
+
+.close-btn {
+  background-position: -100px -100px;
+  width: 29px;
+  height: 29px;
+  cursor: pointer; }
+  .close-btn:hover {
+    background-position: -100px -134px; }
+
+.close-big-btn {
+  background-position: -250px -100px;
+  width: 39px;
+  height: 39px;
+  cursor: pointer; }
+  .close-big-btn:hover {
+    background-position: -250px -150px; }
+
+.left-arrow-btn {
+  background-position: -150px -100px;
+  width: 39px;
+  height: 39px;
+  cursor: pointer; }
+  .left-arrow-btn:hover {
+    background-position: -150px -150px; }
+
+.right-arrow-btn {
+  background-position: -200px -100px;
+  width: 39px;
+  height: 39px;
+  cursor: pointer; }
+  .right-arrow-btn:hover {
+    background-position: -200px -150px; }
+
+.grey-background {
+  background-position: -272px 0;
+  width: 100px;
+  height: 23px; }
+
+.star-icon {
+  background-position: -444px -5px;
+  width: 13px;
+  height: 12px; }
