@@ -1,4 +1,4 @@
-Backbone Application Template
+Backbone + RequireJS Application Template
 ===============
 
 ## Demo
