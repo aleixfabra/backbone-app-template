@@ -1,6 +1,8 @@
 Backbone + RequireJS Application Template
 ===============
-Backbone + RequireJS template helps you build fast javascript apps or site.
+Backbone + RequireJS template helps you build fast javascript apps or site. 
+
+Download it and change the graphic assets.
 
 ## Demo
 
@@ -14,5 +16,5 @@ Basically, if you want to use this template, you just need to changes:
   Change index.html and js/templates/ folder texts
 * **images:**  
   Change images from img/ folder
-  * **videos:**  
+* **videos:**  
   Change videos from videos/ folder
